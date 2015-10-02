@@ -1,0 +1,262 @@
+a { color: black;
+            text-decoration: none;
+            vertical-align:middle;
+        }
+
+        a:visited {
+            color: black;
+            text-decoration: none;
+        }
+        a:link {color:black;
+        }
+        a:hover {
+            display: block;
+            color: #ffffff;
+            text-decoration: none;
+            height: 100% ; /* Высота на весь слой */
+            color: #854bd2; /* Цвет ссылки */
+        }
+        a:active {
+            color:white;
+            text-decoration: none;
+        }
+
+        p {font-family: calibri}
+        span {font-family: calibri}
+
+        .banner {
+            display:inline-block;   
+            position:relative;
+        }
+        .banner span {
+            display:inline-block;
+            position:absolute;
+            top:187px;   
+            left:134px;
+            text-transform: capitalize;
+        }
+
+        .navigation {
+            list-style: none;
+        }
+        
+        .navigation li {
+            float: right;
+            margin-left: 15px
+        }
+
+        .navigation li a {
+            text-transform: uppercase;
+            display: block; /* меняем отображение на блок, чтобы иметь возможность задавать внутренние отступы */
+            padding: 3px 5px 0px 0px;
+            background: #ffffff;
+            color: #854bd2;
+            position: relative; /* для IE6, чтобы ссылка была кликабильной по всей своей площади */
+            font-family: calibri;
+            font-size: 19px;
+            height: 27px;
+            width: 100px;
+            margin-top: 37px;
+            text-align: center;
+        }
+        
+        .navigation li a:hover{
+            background: #854bd2;
+            color: #ffffff;
+            font-size: 19px;
+
+        }
+
+        .trips {
+            display: block;
+            text-transform: capitalize;
+            text-align: center;
+            background-color:#ffffff;
+            color: #000000;
+            margin-top: 20px;
+            font-family: calibri;
+            font-size: 32px;
+        }
+
+        .trips_desc {
+            display: block;
+            text-align: center;
+            background-color:#ffffff;
+            color: #000000;
+            margin-top: 10px;
+            font-family: calibri;
+            font-size: 24px;
+        }
+
+        .regions{
+            list-style: none;
+        }
+       .regions li {
+            float: right;
+            margin-left: 25px
+        }
+
+        .regions li a {
+            text-transform: uppercase;
+            display: block; /* меняем отображение на блок, чтобы иметь возможность задавать внутренние отступы */
+            padding: 3px 0px 0px 0px;
+            background: #854bd2;
+            color: #ffffff;
+            position: relative; /* для IE6, чтобы ссылка была кликабильной по всей своей площади */
+            font-family: calibri;
+            font-size: 19px;
+            height: 27px;
+            width: 157px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
+        .nav1 { 
+            width:100%; 
+        } 
+        .nav2 { 
+            float:right; 
+            right:50%; 
+            position:relative; 
+        } 
+        .nav2 ul { 
+            float:left; 
+            left:50%; 
+            position:relative; 
+            padding-left: 0px;
+        } 
+
+        .icons div {
+            width:260px;
+            height:128px;
+            float:left;            
+        }
+
+        .icons div img{
+            width:190px;
+            text-align: middle;
+        }
+
+        .icons div img:hover {
+            background-color:#854bd2;
+            opacity: 0.1;   /*как затемнить при наведении мишы*/
+        }
+
+        .about {
+            display: block;
+            text-align: center;
+            background-color:#854bd2;
+            color: #ffffff;
+            font-family: calibri;
+            font-size: 32px;
+            padding-top: 20px;
+        }
+
+        .about_desc {
+            display: block;
+            text-align: center;
+            background-color:#854bd2;
+            color: #ffffff;
+            margin-top: 10px;
+            font-family: calibri;
+            font-size: 24px;
+        }
+
+        .about_us img {
+            width:200px;
+            vertical-align:middle;
+        }
+
+        .about_us img:hover {
+            background:url(images/icons.png);/*не появляются значки соцсетей*/
+            opacity: 0.2;
+            cursor: pointer;
+        }
+
+        .contact {
+            display: block;
+            text-align: center;
+            background-color:#D7C5F0;
+            color: #854bd2;
+            font-family: calibri;
+            font-size: 32px;
+            padding-top: 20px;
+        }
+
+        .contact_desc {
+            display: block;
+            text-align: center;
+            background-color:#D7C5F0;
+            color: #854bd2;
+            margin-top: 10px;
+            font-family: calibri;
+            font-size: 24px;
+        }
+
+        form {
+            margin-left: 40px;
+            margin-top: 53px;
+            float: left;
+        }
+
+        input, textarea {
+            background: #ffffff;
+            font-family: calibri;
+            font-style: italic;
+            font-size: 16px;
+            color: #D7C5F0;
+            border:0px;
+            padding-left: 10px;
+        }
+
+        input {
+            width: 220px;
+            height: 47px;     
+        }
+
+        .name input {
+            margin-right: 11px;
+        }
+
+        textarea {
+            width: 456px;
+            height: 153px;
+            padding-top: 10px;
+        }
+
+        .send input{
+            background: #854bd2;
+            color: #ffffff;
+            font-style: normal;
+            font-size: 22px;
+            width: 114px;
+            height: 37px;
+            margin-left: 343px;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #854bd2;
+        }
+
+        .send input:hover{
+            background: #ffffff;
+            color: #854bd2;
+            cursor: pointer;       
+        }
+
+        footer {
+            color: #ffffff;
+            font-size: 16px;
+            font-family: calibri;
+            padding-left: 30px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .info {
+            font-family: calibri;
+            font-size: 18px;
+            margin-top: 66px;
+            color: #854bd2;
+            line-height: 28px;
+        }
